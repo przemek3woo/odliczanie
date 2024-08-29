@@ -60,7 +60,7 @@ p {
 }
 
 #emotion {
-    font-size: 40vh;
+    font-size: 30vh;
     position: absolute;
     z-index: 1;
     animation: emove 3s ease-in-out infinite;
