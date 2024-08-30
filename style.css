@@ -56,6 +56,7 @@ p {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0 15px #0000006a;
+    transition: 500ms cubic-bezier(0.63, 0.03, 0.43, 0.99);
     z-index: 2;
 }
 
@@ -64,6 +65,7 @@ p {
     position: absolute;
     z-index: 1;
     animation: emove 3s ease-in-out infinite;
+    transition: 500ms cubic-bezier(0.63, 0.03, 0.43, 0.99);
 }
 
 @keyframes emove {
@@ -77,5 +79,28 @@ p {
 
     100% {
         transform: translateX(-10%) rotateZ(-15deg);
+    }
+}
+
+#enjoy {
+    display: block;
+    transform: translateY(-100vh) rotateZ(-15deg);
+    transition: 500ms cubic-bezier(0.63, 0.03, 0.43, 0.99);
+    font-size: 35vh;
+    position: absolute;
+    z-index: 3;
+}
+
+@keyframes enmove {
+    0% {
+        transform: rotateZ(-15deg) scale(1);
+    }
+
+    50% {
+        transform: rotateZ(15deg) scale(1);
+    }
+
+    100% {
+        transform: rotateZ(-15deg) scale(1);
     }
 }
