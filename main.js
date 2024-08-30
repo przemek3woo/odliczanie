@@ -4,7 +4,7 @@ let enjoy = document.getElementById("enjoy")
 let emo = document.getElementById("emotion")
 
 let meet = "Aug 31, 2024 09:00:00"
-meet = "Aug 30, 2024 013:23:40"
+meet = "Aug 30, 2024 013:30:00"
 
 emo.innerText = ["🤍",  "💪", "🥰", "😘", "😻"][Math.floor(Math.random() * (4-0+1) + 0)]
 
