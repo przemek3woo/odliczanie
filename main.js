@@ -1,11 +1,13 @@
+let meet = "Sep 02, 2024 12:30:00"
+let emotions = ["🤍",  "💪", "🥰", "😘", "😻"]
+
+
 let clock = document.getElementById("clock")
 let my_window = document.getElementById("window")
 let enjoy = document.getElementById("enjoy")
 let emo = document.getElementById("emotion")
 
-let meet = "Aug 31, 2024 09:00:00"
-
-emo.innerText = ["🤍",  "💪", "🥰", "😘", "😻"][Math.floor(Math.random() * (4-0+1) + 0)]
+emo.innerText = emotions[Math.floor(Math.random() * (emotions.length))]
 
 const countDownDate = new Date(meet).getTime();
 const interval = setInterval(() => {
