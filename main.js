@@ -1,5 +1,5 @@
-let meet = "Sep 02, 2024 12:30:00"
-let emotions = ["🤍",  "💪", "🥰", "😘", "😻"]
+let meet = "Sep 02, 2024 13:40:00"
+let emotions = ["🤍",  "💪", "🥰", "😘", "😻", "🐱", "🫶🏻"]
 
 
 let clock = document.getElementById("clock")
